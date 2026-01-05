@@ -63,13 +63,14 @@ nav{
     width: 100%;
     z-index: 100%;
     transition: all 0.3s ease;
+    display: flex;
 
 }
 nav a{
     text-decoration:dashed;
     font-weight: bolder;
     font-style: italic;
-    font-size: 20px;
+    font-size: 18px;
     margin: 10px 30px;
     color: white;
 }
@@ -175,4 +176,5 @@ padding: 20px;
 text-align: center;
 margin-top: 40px;
 font-size: 15px;
+
 }
