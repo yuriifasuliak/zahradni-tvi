@@ -63,14 +63,12 @@ nav{
     width: 100%;
     z-index: 100%;
     transition: all 0.3s ease;
-    display: flex;
 
 }
 nav a{
-    text-decoration:dashed;
     font-weight: bolder;
     font-style: italic;
-    font-size: 18px;
+    font-size: 20px;
     margin: 10px 30px;
     color: white;
 }
@@ -176,5 +174,53 @@ padding: 20px;
 text-align: center;
 margin-top: 40px;
 font-size: 15px;
+}
+@media (max-width: 768px) {
+nav {
+flex-wrap: wrap;
+gap: 10px;
+width: 100%;
+}
+nav a{
+    font-size: 14px;
+}
+.hero {
+height: auto;
+background-size: cover;
+padding: 120px 20px 80px;
+text-align: center; 
 
+}
+.hero-content h1 {
+font-size: 32px;
+}
+.hero-content p {
+font-size: 18px;
+}
+.hero-buttons {
+flex-direction: column;
+}
+form {
+grid-template-columns: 1fr;
+padding: 25px;
+}
+input{
+    max-width: 300px;
+}
+form label,
+form textarea,
+form button {
+grid-column: span 1;
+max-width: 300px;
+}
+.services-list {
+font-size: 14px;
+}
+.gallery img {
+width: 360px;
+height: 270px;
+}
+.contact h3{
+    font-size: 18px;
+}
 }
