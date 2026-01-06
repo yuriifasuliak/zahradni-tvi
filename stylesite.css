@@ -179,7 +179,7 @@ font-size: 15px;
 nav {
 flex-wrap: wrap;
 gap: 10px;
-width: 100%;
+width: auto;
 }
 nav a{
     font-size: 14px;
@@ -224,3 +224,4 @@ height: 270px;
     font-size: 18px;
 }
 }
+
