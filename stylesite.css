@@ -60,7 +60,7 @@ nav{
     position: sticky;
     height: 40px;
     top: 0;
-    width: 100%;
+    width: auto;
     z-index: 100%;
     transition: all 0.3s ease;
 
@@ -224,4 +224,5 @@ height: 270px;
     font-size: 18px;
 }
 }
+
 
