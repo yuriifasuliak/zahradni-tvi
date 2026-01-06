@@ -179,7 +179,7 @@ font-size: 15px;
 nav {
 flex-wrap: wrap;
 gap: 10px;
-width: auto;
+max-width: auto;
 }
 nav a{
     font-size: 14px;
@@ -189,7 +189,6 @@ height: auto;
 background-size: cover;
 padding: 120px 20px 80px;
 text-align: center; 
-
 }
 .hero-content h1 {
 font-size: 32px;
@@ -224,5 +223,3 @@ height: 270px;
     font-size: 18px;
 }
 }
-
-
